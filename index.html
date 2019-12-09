@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>I'm Brandon Han</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<<link rel="stylesheet" href="style.css">
+
 <style>
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
@@ -54,31 +57,43 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">HELLO </span> I'M BRANDON</h1>
-    <p>Software Engineer and Web Developer.</p>
+    <h1 class="w3-jumbo"><span class="w3-hide-small">HELLO <span class ="wrapper"> I'M BRANDON HAN</span></h1>
+    <h4>Software Engineer and Web Developer.</h4>
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey"></h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>My name is Brandon Han, and I am a software engineer in Singapore. I love building things. While hard engineering problems are often fun to tackle, I'm most attracted to solving real customer problems with a business justification. If you have any questions , or just want to say hello, feel free to contact me. You can email me at hanzy.brandon@gmail.com.
     </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">ReactJS</p>
-    <p class="w3-wide">NodeJS</p>
-    <p class="w3-wide">ExpressJS</p>
-    <p class="w3-wide">Bootstrap</p>
-    <p class="w3-wide">Web Design</p>
-    <p class="w3-wide">Python</p>
-    <p class="w3-wide">Photoshop</p>
-    <p class="w3-wide">Illustrator</p>
-    <p class="w3-wide">Indesign</p>
-    <p class="w3-wide">Premier Pro</p>
-    <p class="w3-wide">Blender3D</p>
-    <p class="w3-wide">MS Office</p>
+      <div class = "container-fluid">
+        <div class = "row">
+          <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+        </div>
+        <div class = "row">
+          <div class = "col-6">
+            <p class="w3-wide">ReactJS</p>
+            <p class="w3-wide">NodeJS</p>
+            <p class="w3-wide">ExpressJS</p>
+            <p class="w3-wide">Bootstrap</p>
+            <p class="w3-wide">Web Design</p>
+            <p class="w3-wide">Python</p>
+          </div>
+          <div class = "col-6">
+            <p class="w3-wide">Photoshop</p>
+            <p class="w3-wide">Illustrator</p>
+            <p class="w3-wide">Indesign</p>
+            <p class="w3-wide">Premier Pro</p>
+            <p class="w3-wide">Blender3D</p>
+            <p class="w3-wide">MS Office</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
     <!-- <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div> -->
@@ -92,10 +107,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </div><br> -->
 
 
+    <div class ="offset-2 col-10 justify-content-start">
+      <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i> Download Resume
+      </button>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> Download Resume
-    </button>
+    </div>
 
     <!-- Grid for pricing tables -->
     <!-- <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
@@ -134,7 +151,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         </ul>
       </div> -->
     <!-- End Grid/Pricing tables -->
-    </div>
+    <!-- </div> -->
 
     <!-- Testimonials -->
     <!-- <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
@@ -202,9 +219,6 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
     <!-- <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
   <!-- End footer -->

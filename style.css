@@ -1,0 +1,7 @@
+
+.wrapper{
+transition: transform 1.5s cubic-bezier(1,.15,.25,1);
+-webkit-transform: 1.5s cubic-bezier(1,.15,.25,1);
+overflow: hidden;
+color:red;
+}
